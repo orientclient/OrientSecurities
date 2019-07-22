@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<META HTTP-EQUIV="pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+<META HTTP-EQUIV="expires" CONTENT="0">
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+
+<div class="controls">
+	<div style="margin:10px">
+		<button id="add-option" class="btn btn-primary">添加区域</button>
+		<button id="delete-all-tip" class="btn btn-primary">删除所有</button>
+		<button id="quick-add-intelligence" class="btn btn-danger">智能填充</button>
+	</div>
+</div>
+<div class="gridster">
+	<ul style="left: 10px;padding-left: 0px;">
+		 <li class="font-white" data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+			 <header>
+				 <div class="tool-drag"></div>
+				 <div class="tool-option hide">
+					 <i class="fa fa-pencil"></i>
+					 <i class="fa fa-close remove-item"></i>
+				 </div>
+			 </header>
+			 <container>
+				 <span>0</span>
+			 </container>
+		 </li><!-- 这里写了一个header，对应配置里面的handle，鼠标落到header上面可以拖，而不是整个块 -->
+		 <li class="font-white" data-row="1" data-col="3" data-sizex="1" data-sizey="2">
+			 <header>
+				 <div class="tool-drag"></div>
+				 <div class="tool-option hide">
+					 <i class="fa fa-pencil"></i>
+					 <i class="fa fa-close remove-item"></i>
+				 </div>
+			 </header>
+			 <container>
+				 <span>1</span>
+			 </container>
+		 </li>
+		 <li class="font-white" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+			 <header>
+				 <div class="tool-drag"></div>
+				 <div class="tool-option hide">
+					 <i class="fa fa-pencil"></i>
+					 <i class="fa fa-close remove-item"></i>
+				 </div>
+			 </header>
+			 <container>
+				 <span>2</span>
+			 </container>
+		 </li>
+		 <li class="font-white" data-row="3" data-col="2" data-sizex="3" data-sizey="1">
+			 <header>
+				 <div class="tool-drag"></div>
+				 <div class="tool-option hide">
+					 <i class="fa fa-pencil"></i>
+					 <i class="fa fa-close remove-item"></i>
+				 </div>
+			 </header>
+			 <container>
+				 <span>3</span>
+			 </container>
+		 </li>
+		 <li class="font-white" data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+			 <header>
+				 <div class="tool-drag"></div>
+				 <div class="tool-option hide">
+					 <i class="fa fa-pencil"></i>
+					 <i class="fa fa-close remove-item"></i>
+				 </div>
+			 </header>
+			 <container>
+				 <span>4</span>
+			 </container>
+		 </li>
+		 <li class="font-white" data-row="3" data-col="1" data-sizex="1" data-sizey="1">
+			 <header>
+				 <div class="tool-drag"></div>
+				 <div class="tool-option hide">
+					 <i class="fa fa-pencil"></i>
+					 <i class="fa fa-close remove-item"></i>
+				 </div>
+			 </header>
+			 <container>
+				 <span>5</span>
+			 </container>
+		 </li>
+		<li class="font-white" data-row="4" data-col="2" data-sizex="1" data-sizey="1">
+			<header>
+				<div class="tool-drag"></div>
+				<div class="tool-option hide">
+					<i class="fa fa-pencil"></i>
+					<i class="fa fa-close remove-item"></i>
+				</div>
+			</header>
+			<container>
+				<span>6</span>
+			</container>
+		</li>
+	</ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="../js/jquery.gridster.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>
